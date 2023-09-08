@@ -16,6 +16,8 @@ const productList = [
     },
 ];
 
+
+//It's Helper Function to get The products by id from the Product Array
 function getProductData(id){
     let productData= productList.find(product => product.id === id);
     if(productData === undefined){

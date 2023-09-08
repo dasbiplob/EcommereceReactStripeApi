@@ -1,6 +1,7 @@
 import { Row, Col } from "react-bootstrap"
-import { productList } from "../productsStore"
-import productCard from "../component/productCard"
+import { productList } from "../ProductsStore"
+import ProductCard from "../component/ProductCard"
+
 
 const Store = () => {
   return (
@@ -10,7 +11,7 @@ const Store = () => {
         {productList.map((product,idx)=>(   
         <Col align="center" key={idx}>
             
-            <productCard product={product}/>
+            <ProductCard product={product}/>
         </Col>
         ))}
 
