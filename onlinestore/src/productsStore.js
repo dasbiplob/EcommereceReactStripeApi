@@ -1,18 +1,22 @@
+//Iphone : price_1NqdD9KThwOnnVGSKnsiEHE9
+//Laptop: price_1NqdEMKThwOnnVGS4yFA61zM
+//SunGlass : price_1NqdFIKThwOnnVGSXeOGUAoR
+
 const productList = [
     {
-        id: 1,
+        id: "price_1NqdEMKThwOnnVGS4yFA61zM",
         title: "Laptop",
-        price: 2000
+        price: 3000
     },
     {
-        id: 2,
+        id: "price_1NqdFIKThwOnnVGSXeOGUAoR",
         title: "Sunglass",
         price: 500
     },
     {
-        id: 3,
+        id: "price_1NqdD9KThwOnnVGSKnsiEHE9",
         title: "IPhone",
-        price: 1500
+        price: 2500
     },
 ];
 

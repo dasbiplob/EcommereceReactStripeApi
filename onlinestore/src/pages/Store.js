@@ -10,7 +10,6 @@ const Store = () => {
       <Row xs ={1} md = {3} className="g-4">
         {productList.map((product,idx)=>(   
         <Col align="center" key={idx}>
-            
             <ProductCard product={product}/>
         </Col>
         ))}
